@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header__section__one{
+display: flex;
+justify-content: center;
+}
+
+.header__nav {
+    background: #3e8989;
+}
+
+.logo{
+    padding-top: 37px;
+    padding-bottom: 37px;
+   
+   
+}
+
+.header__middle__section{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 30px;
+padding-left: 272px;
+}
+
+
+.header__section__two{
+    font-family: 'Rubik-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.header__section__two:hover{
+    border-bottom: 3px solid white ;
+   
+}
+
+
+.header__search{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+    padding-left: 202px;
+}
+
+.header__area{
+    border-radius: 20px 0 0 20px;
+width: 216px;
+height: 35px;
+border: none;
+padding-left: 20px;
+font-family: 'Rubik-Regular';
+font-weight: 400;
+font-size: 16px;
+color: #898989;
+
+}
+
+.header__search__btn{
+    border-radius: 0 20px 20px 0;
+width: 74px;
+height: 35px;
+border: none;
+background: #295e5e;
+color: white;
+padding-right: 14px;
+padding-left: 14px;
+}
+
+.header__about__top{
+    background: url(../images/Background.png)no-repeat center /cover;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__gotrip{
+   padding-bottom: 20px;
+    font-family: Rubik-SemiBold;
+font-weight: 600;
+font-size: 80px;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.tag__for-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 50px;
+}
+
+.header__travel{
+   
+  flex-direction: column;
+    padding-top: 20px;
+    
+    font-family: 'Rubik-Medium';
+font-weight: 500;
+font-size: 40px;
+color: #fff;
+}
+
+.header__content button{ 
+    background: #b4436c; 
+    width: 200px; 
+    height: 50px; 
+    border-radius: 30px; 
+    border: 3px solid  #b4436c;
+    font-family: 'Inter-SemiBold'; 
+font-weight: 600; 
+font-size: 18px; 
+color: #fff; 
+
+}
+.header__link__button:hover{
+  border-color: purple;
+  
+}
+
+.about__box__top{
+    display: flex;
+    gap: 20px;
+}
+
+.first__one{
+    font-family: Rubik-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;    
+}
+.second__one{
+    padding-top: 20px;
+    font-family: Rubik-Regular;
+font-weight: 400;
+font-size: 18px;
+color: #000;
+ 
+}
+.about__box h2{
+    font-family: Inter-SemiBold;
+font-weight: 600;
+font-size: 40px;
+color: #3e8989;
+padding-top: 80px;
+padding-bottom: 50px;
+display: flex;
+justify-content: center;
+}
+
+
+
+.elements{
+    display: flex;
+    gap: 20px;
+ 
+}
+.photo{
+    background: #efefef;
+    width: 263px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Main__section__two{
+    font-family: Inter-SemiBold;
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    padding-top: 97px;
+    padding-bottom: 53px;
+    display: flex;
+    justify-content: center;
+}
+.Main__section__about{
+    font-family: 'Inter-Semibold';
+font-weight: 600;
+font-size: 24px;
+color: #000;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+
+}
+.Main__section__about:hover{
+color: #b4436c;
+transition: 300ms;
+}
+.main__section__left p{
+    width: 555px;
+}
+.main__section__left{
+    font-family: 'Rubik-Regular';
+font-weight: 400;
+font-size: 20px;
+color: #000;
+
+}
+.main__bottom{
+    font-family: Inter-SemiBold;
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.main__bottom__box{
+    display: flex;
+    padding-bottom: 105px;
+ 
+}
+
+.main__section__number{
+    font-family: 'Rubik-Regular';
+font-weight: 400;
+font-size: 20px;
+color: #000;
+}
+
+.main__section__mail{
+    font-family: 'Rubik-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.div__for__two{
+    padding-top: 20px;
+}
+
+.main__section__right{
+
+    padding-left: 388px;
+}
+
+.footer{
+    background: #3e8989;
+}
+
+.about__footer__div{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-top: 40px;
+}  
+
+.about__footer__section{
+    font-family: 'Rubik-Medium';
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+}
+
+.about__footer p{
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+    padding-bottom: 15px;
+    font-family: 'Rubik-Regular';
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+}
+
+
+
+@media (max-width:1140px) {
+    .elements{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    .about__box__top{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__box__left{
+        display: flex;
+        justify-content: center;
+    }
+    .img__class{
+        width: 100%;
+    }
+    .about__box__right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main__section__left{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    .header__middle__section{
+        padding-left: 110px;
+        gap: 10px;
+       flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .header__search{
+       padding-left: 110px;
+    }
+    .main__bottom__box{
+        display: flex;
+        justify-content: center;
+    }
+    .main__section__right{
+        padding-right: 50px;
+    }
+}
+
+@media(max-width:820px) {
+    .main__bottom__box{
+       flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .main__section__right{
+       padding-left: 50px;
+       padding-top: 30px;
+       padding-right: 60px;
+       text-align: center;
+       }
+       .main__section__left{
+        text-align: center;
+       }
+    .header__random-word{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__gotrip{
+        font-size: 60px;
+    }
+    .header__travel{
+        font-size: 40px;
+    }
+    .header__section__one{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__middle__section{
+        padding-left: 0px;
+    }
+    .header__search{
+        padding-left: 10px;
+        padding-bottom: 40px;
+    }
+    
+}
+
